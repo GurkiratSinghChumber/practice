@@ -19,6 +19,11 @@ public class JavaApplication3 {
         return name;
     }
 
+    public JavaApplication3(String name, int id) {
+        this.name = name;
+        this.id = id;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
